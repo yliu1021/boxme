@@ -17,6 +17,8 @@
 		565DEF5E1D48F78900E87C3D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565DEF5D1D48F78900E87C3D /* Player.swift */; };
 		565DEF5F1D48F86500E87C3D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565DEF5D1D48F78900E87C3D /* Player.swift */; };
 		565DEF631D48F8A200E87C3D /* PlayerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565DEF621D48F8A200E87C3D /* PlayerTest.swift */; };
+		565DEF681D48FAC600E87C3D /* PlayerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565DEF671D48FAC600E87C3D /* PlayerUI.swift */; };
+		565DEF6D1D48FD4A00E87C3D /* MenuUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565DEF6C1D48FD4A00E87C3D /* MenuUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		565DEF4D1D48F59D00E87C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		565DEF5D1D48F78900E87C3D /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		565DEF621D48F8A200E87C3D /* PlayerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerTest.swift; sourceTree = "<group>"; };
+		565DEF671D48FAC600E87C3D /* PlayerUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerUI.swift; sourceTree = "<group>"; };
+		565DEF6C1D48FD4A00E87C3D /* MenuUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,7 @@
 		565DEF2A1D48F59D00E87C3D /* boxme */ = {
 			isa = PBXGroup;
 			children = (
+				565DEF6A1D48FADE00E87C3D /* Views */,
 				565DEF591D48F6FE00E87C3D /* Game */,
 				565DEF2B1D48F59D00E87C3D /* AppDelegate.swift */,
 				565DEF2D1D48F59D00E87C3D /* ViewController.swift */,
@@ -138,6 +143,15 @@
 				565DEF5D1D48F78900E87C3D /* Player.swift */,
 			);
 			name = Game;
+			sourceTree = "<group>";
+		};
+		565DEF6A1D48FADE00E87C3D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				565DEF6C1D48FD4A00E87C3D /* MenuUI.swift */,
+				565DEF671D48FAC600E87C3D /* PlayerUI.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,9 +286,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				565DEF681D48FAC600E87C3D /* PlayerUI.swift in Sources */,
 				565DEF5E1D48F78900E87C3D /* Player.swift in Sources */,
 				565DEF2E1D48F59D00E87C3D /* ViewController.swift in Sources */,
 				565DEF2C1D48F59D00E87C3D /* AppDelegate.swift in Sources */,
+				565DEF6D1D48FD4A00E87C3D /* MenuUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

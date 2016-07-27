@@ -8,7 +8,7 @@
 
 import XCTest
 
-class PlayerTest: XCTestCase {
+class PlayerTest: XCTest {
     
     let playerName = "Name1"
     
