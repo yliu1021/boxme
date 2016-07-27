@@ -1,5 +1,5 @@
 //
-//  MenuUI.swift
+//  GameUI.swift
 //  boxme
 //
 //  Created by Yuhan Liu on 7/27/16.
@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class MenuUI: UIView {
+class GameUI: UIView {
     
     
     
